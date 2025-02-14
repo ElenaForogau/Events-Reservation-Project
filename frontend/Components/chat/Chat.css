@@ -1,0 +1,32 @@
+.chat-container {
+  width: 80%;
+  margin: auto;
+  max-width: 600px;
+}
+
+.messages-container {
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.message-form {
+  display: flex;
+  gap: 10px;
+}
+
+.message-form input,
+.message-form button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.message-form input[type="text"] {
+  flex-grow: 2;
+}
